@@ -32,7 +32,7 @@ export default function SearchBox() {
             onClick={() => setTerm('')}
         />
         <BsFillMicFill
-            className='hidden sm:inline-flex text-2xl text-blue-500  border-l-2 border-gray-300 ml-3 mr-3 p-l-4'
+            className='hidden sm:inline-flex text-2xl text-blue-500  border-l-2 border-gray-300 ml-3 mr-3 pl-1'
         />
         <AiOutlineSearch
             className='text-2xl hidden sm:inline-flex text-blue-500 cursor-pointer'
