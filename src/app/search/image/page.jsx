@@ -31,6 +31,7 @@ export default async function ImageSearchPage({ searchParams }) {
     <div>
         {results &&  
             <ImageSearchResults results={data}/>
+        }
     </div>
   )
 }
